@@ -5,8 +5,17 @@
   "description": "This extensions reminds users to rest their eyes to reduce eye strain",
   "version": "1.0",
 
+  "background": {
+    "scripts": [
+      "background.js", 
+      "script.js"
+    ]
+  },
+
   "permissions": [
     "activeTab",
-    "https://ajax.googleapis.com/"
+    "https://ajax.googleapis.com/",
+    "storage",
+    "alarms"
   ]
 }
